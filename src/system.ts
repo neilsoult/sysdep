@@ -105,7 +105,6 @@ export default class System {
             console.log(`\t${name}`);
 
         });
-        console.log('END');
 
     }
 
