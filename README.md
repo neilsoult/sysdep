@@ -1,1 +1,3 @@
 # sysdep
+
+run npm start
