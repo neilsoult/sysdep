@@ -1,0 +1,28 @@
+{
+  "name": "sysdep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "prebuild": "npm i",
+    "prestart": "npm run build",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilsoult/sysdep.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/neilsoult/sysdep/issues"
+  },
+  "homepage": "https://github.com/neilsoult/sysdep#readme",
+  "dependencies": {
+    "typescript": "2.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.47"
+  }
+}
