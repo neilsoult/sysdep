@@ -9,9 +9,9 @@ export default class Package {
 
     }
 
-    addDependencies (...dependencies): void {
+    addDependencies (dependencies: Array<string>): void {
 
-        this.dependencyList = [...this.dependencyList, ...dependencies];
+        this.dependencyList = this.dependencyList.concat(dependencies);
 
     }
 

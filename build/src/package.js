@@ -5,11 +5,7 @@ var Package = /** @class */ (function () {
         this.dependencyList = [];
         this._name = name;
     }
-    Package.prototype.addDependencies = function () {
-        var dependencies = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            dependencies[_i] = arguments[_i];
-        }
+    Package.prototype.addDependencies = function (dependencies) {
         this.dependencyList = this.dependencyList.concat(dependencies);
     };
     Object.defineProperty(Package.prototype, "dependencies", {
